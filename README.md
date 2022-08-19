@@ -4,6 +4,10 @@
 
 This is the official PyTorch implementation of the paper: [iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer](https://arxiv.org/abs/2207.06831).
 
+<p align="center">
+  <img width="100%" src="docs/iColoriT_demo.gif">
+</p>
+
 > **iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer**  
 > Sanghyeon Lee*, Jooyeol Yun*, Minho Park*, and Jaegul Choo  
 > KAIST  
