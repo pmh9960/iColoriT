@@ -2,13 +2,13 @@ export OMP_NUM_THREADS=1
 export CUDA_VISIBLE_DEVICES=${1:-0}
 MASTER_PORT=${2:-4885}
 
-# path to imagenet-1k train set
+# path to imagenet-1k train set and validation dataset
 DATA_PATH=''
 VAL_DATA_PATH=''
 VAL_HINT_DIR=''
 # Set the path to save checkpoints
-OUTPUT_DIR=''
-TB_LOG_DIR=''
+OUTPUT_DIR='checkpoints'
+TB_LOG_DIR='tf_logs'
 
 # other options
 opt=${3:-}

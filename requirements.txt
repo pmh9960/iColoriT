@@ -1,20 +1,14 @@
-# torch
-# torchvision
+torch
+torchvision
+# torch==1.8.2+cu111
+# torchvision==0.9.2+cu111
+# pip3 install torch==1.8.2 torchvision==0.9.2 --extra-index-url https://download.pytorch.org/whl/lts/1.8/cu111
+einops==0.4.1
+lpips==0.1.4 # eval
+numpy==1.22.4
+opencv_python==4.6.0.66
+Pillow==9.2.0
+# prettytable==3.3.0 # optional
+tensorboardX==2.5.1
 timm==0.4.12
-Pillow
-blobfile
-mypy
-numpy
-matplotlib
-pytest
-requests
-einops
-tensorboardX
-# deepspeed==0.4.0
-scipy
-tqdm
-six
-opencv-python
-lpips
-# cd pytorch-fid; python setup.py install
-# prettytable
+tqdm==4.64.0

@@ -1,7 +1,7 @@
 export OMP_NUM_THREADS=1
 export CUDA_VISIBLE_DEVICES=${1:-0}
 
-# path to imagenet-1k train set
+# path to model and validation dataset
 MODEL_PATH=''
 VAL_DATA_PATH=''
 VAL_HINT_DIR=''
