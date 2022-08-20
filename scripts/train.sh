@@ -13,6 +13,15 @@ TB_LOG_DIR='tf_logs'
 # other options
 opt=${3:-}
 
+    
+# Training epochs used for pretrained iColoriT are
+# Base  - 1000 epochs
+# Small - 100 epochs
+# Tiny  - 25 epochs
+# all with a batch size of 256.
+# Other hyper-parameters follow the default numbers. 
+
+
 # batch_size can be adjusted according to the graphics card
 python -m torch.distributed.launch --nproc_per_node=$(((${#CUDA_VISIBLE_DEVICES}+1)/2)) --master_port ${MASTER_PORT} \
     train.py \
