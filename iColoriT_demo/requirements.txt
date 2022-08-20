@@ -1,0 +1,16 @@
+torch
+torchvision
+timm==0.4.12
+Pillow
+blobfile
+mypy
+numpy
+matplotlib
+pytest
+requests
+einops
+scipy
+tqdm
+six
+opencv-python
+PyQt5
