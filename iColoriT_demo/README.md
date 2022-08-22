@@ -5,7 +5,7 @@ We provide a GUI which can run on CPU-only devices as well as devices with a GPU
 Try out iColoriT with your own images and color hints! 
 
 <p align="center">
-  <img width="70%" src="../docs/iColoriT_demo.gif">
+  <img width="90%" src="../docs/iColoriT_demo.gif">
 </p>
 
 ## Pretrained iColoriT
