@@ -8,6 +8,10 @@ This is the official PyTorch implementation of the paper: [iColoriT: Towards Pro
   <img width="70%" src="docs/iColoriT_demo.gif">
 </p>
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/icolorit-towards-propagating-local-hint-to/point-interactive-image-colorization-on)](https://paperswithcode.com/sota/point-interactive-image-colorization-on?p=icolorit-towards-propagating-local-hint-to)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/icolorit-towards-propagating-local-hint-to/point-interactive-image-colorization-on-1)](https://paperswithcode.com/sota/point-interactive-image-colorization-on-1?p=icolorit-towards-propagating-local-hint-to)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/icolorit-towards-propagating-local-hint-to/point-interactive-image-colorization-on-cub)](https://paperswithcode.com/sota/point-interactive-image-colorization-on-cub?p=icolorit-towards-propagating-local-hint-to)
+
 > **iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer**  
 > Sanghyeon Lee*, Jooyeol Yun*, Minho Park*, and Jaegul Choo  
 > KAIST  
