@@ -5,7 +5,7 @@ This is the official PyTorch implementation of the paper: [iColoriT: Towards Pro
 > iColoriT is pronounced as "<em>I color it</em> ".
 
 <p align="center">
-  <img width="70%" src="docs/iColoriT_demo.gif">
+  <img width="90%" src="docs/iColoriT_demo.gif">
 </p>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/icolorit-towards-propagating-local-hint-to/point-interactive-image-colorization-on)](https://paperswithcode.com/sota/point-interactive-image-colorization-on?p=icolorit-towards-propagating-local-hint-to)  
