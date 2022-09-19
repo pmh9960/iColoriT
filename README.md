@@ -13,7 +13,7 @@ This is the official PyTorch implementation of the paper: [iColoriT: Towards Pro
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/icolorit-towards-propagating-local-hint-to/point-interactive-image-colorization-on-cub)](https://paperswithcode.com/sota/point-interactive-image-colorization-on-cub?p=icolorit-towards-propagating-local-hint-to)  
 
 > **iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer**  
-> Sanghyeon Lee*, Jooyeol Yun*, Minho Park*, and Jaegul Choo  
+> Jooyeol Yun*, Sanghyeon Lee*, Minho Park*, and Jaegul Choo  
 > KAIST  
 > In WACV 2023. (* indicate equal contribution)
 
@@ -97,7 +97,7 @@ bash scripts/train.sh
 ```
 @article{lee2022icolorit,
   title={iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer},
-  author={Lee, Sanghyeon and Yun, Jooyeol and Park, Minho and Choo, Jaegul},
+  author={Yun, Jooyeol and Lee, Sanghyeon and Park, Minho and Choo, Jaegul},
   journal={arXiv preprint arXiv:2207.06831},
   year={2022}
 }
