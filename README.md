@@ -95,7 +95,7 @@ bash scripts/train.sh
 ## Citation
 
 ```
-@article{lee2022icolorit,
+@article{yun2022icolorit,
   title={iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer},
   author={Yun, Jooyeol and Lee, Sanghyeon and Park, Minho and Choo, Jaegul},
   journal={arXiv preprint arXiv:2207.06831},
