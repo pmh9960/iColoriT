@@ -95,10 +95,12 @@ bash scripts/train.sh
 ## Citation
 
 ```
-@article{yun2022icolorit,
-  title={iColoriT: Towards Propagating Local Hint to the Right Region in Interactive Colorization by Leveraging Vision Transformer},
-  author={Yun, Jooyeol and Lee, Sanghyeon and Park, Minho and Choo, Jaegul},
-  journal={arXiv preprint arXiv:2207.06831},
-  year={2022}
+@InProceedings{Yun_2023_WACV,
+    author    = {Yun, Jooyeol and Lee, Sanghyeon and Park, Minho and Choo, Jaegul},
+    title     = {iColoriT: Towards Propagating Local Hints to the Right Region in Interactive Colorization by Leveraging Vision Transformer},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {1787-1796}
 }
 ```
