@@ -118,10 +118,10 @@ class DatasetFolder(VisionDataset):
                                             target_transform=target_transform)
         classes, class_to_idx = self._find_classes(self.root)
 
-        # saving samples.pkl can skip this
-        # samples = make_dataset(self.root, class_to_idx, extensions, is_valid_file)
-        with open('debug/samples.pkl', 'rb') as f:
-            samples = pickle.load(f)
+        samples = make_dataset(self.root, class_to_idx, extensions, is_valid_file)
+        # saving samples.pkl can skip above line
+        # with open('debug/samples.pkl', 'rb') as f:
+        #     samples = pickle.load(f)
         if len(samples) == 0:
             msg = "Found 0 files in subfolders of: {}\n".format(self.root)
             if extensions is not None:
